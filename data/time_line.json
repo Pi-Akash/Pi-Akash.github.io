@@ -1,0 +1,28 @@
+[
+  {
+  "id": 0,
+  "name": "Bachelor degree ",
+  "category": "Education",
+  "placeName": "United nations",
+  "country": "India",
+  "startDate": "2010-09",
+  "endDate": "2013-07",
+  "description":["Introduction to computer Science (Javascript, Adobe Flash Player, Microsoft Access, CMS)"],
+  "skills": [
+    "english",
+    ]
+},
+{
+  "id": 1,
+  "name": "PG Diploma",
+  "category": "Education",
+  "placeName": "Nagoya University of Foreign Studies",
+  "country": "India",
+  "startDate": "2012-09",
+  "endDate": "2013-07",
+  "description": ["Sociology"],
+  "skills": [
+    "english",
+    ]
+}
+]
