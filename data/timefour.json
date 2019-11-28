@@ -27,5 +27,24 @@
     "Sudoku",
     "Skating"
   ]
+},
+{
+  "id": 2,
+  "name": "Bachelor of Engineering",
+  "category": "Education",
+  "placeName": "Bhilai Institute of Technology Raipur, CSVTU",
+  "country": "Bhilai (C.G.), India",
+  "startDate": "2014-06",
+  "endDate": "2018-06",
+  "description": ["Computer Science Major"],
+  "skills": [
+    "Python",
+    "Algorithms & Data Structures",
+    "HTML5",
+    "CSS3",
+    "C Programming",
+    "SQL",
+    "C++ Programming"
+  ]
 }
 ]
