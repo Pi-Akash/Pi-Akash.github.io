@@ -1,97 +1,129 @@
 [
   {
   "id": 0,
-  "name": "Bachelor degree in Japanese and English languages",
+  "name": "Secondary School Certificate Examination",
   "category": "Education",
-  "placeName": "Université de Grenoble (Stendhal)",
-  "country": "France",
-  "startDate": "2010-09",
-  "endDate": "2013-07",
-  "description":["Japanese (Kanji, Grammar, History, Language practise)",
-    "English (British and American history, Grammar, Language practise)",
-   "Economy, Accounting, Law, International law",
-   "Introduction to computer Science (Javascript, Adobe Flash Player, Microsoft Access, CMS)"],
+  "placeName": "Central Board of Secondary Education",
+  "country": "Bhilai (C.G.),India",
+  "startDate": "2011-03",
+  "endDate": "2012-03",
+  "description":["Basic Sciences and Language subjects"],
   "skills": [
     "english",
-    "japanese",
-    "law",
-    "economics"
+    "Skating"
   ]
 },
 {
   "id": 1,
-  "name": "Exchange Student",
+  "name": "Senior School Certificate Examination",
   "category": "Education",
-  "placeName": "Nagoya University of Foreign Studies",
-  "country": "Japan",
-  "startDate": "2012-09",
-  "endDate": "2013-07",
-  "description": ["Japanese language classes JLPT N3, JLPT N2",
-  "Tourism & Hospitality",
-  "Economy",
-  "British law",
-  "Sociology"],
+  "placeName": "Central Board of Secondary Education",
+  "country": "Bhilai (C.G.), India",
+  "startDate": "2013-03",
+  "endDate": "2014-06",
+  "description": ["Mathematics Major with Computer Science"],
   "skills": [
     "english",
-    "japanese",
-    "law",
-    "economics",
-    "sociology",
-    "tourism industry"
+    "Sudoku",
+    "Skating"
   ]
 },
 {
   "id": 2,
-  "name": "Master degree in Computer Science",
+  "name": "Bachelor of Engineering",
   "category": "Education",
-  "placeName": "Université de Grenoble",
-  "country": "France",
-  "startDate": "2016-09",
-  "endDate": "2018-07",
-  "description": ["Algorithms",
-  "Java",
-  "Web Dev",
-  "Systems & Networks",
-  "DB (SQL)",
-  "HCI",
-  "AI"],
+  "placeName": "Bhilai Institute of Technology Raipur, CSVTU",
+  "country": "Bhilai (C.G.), India",
+  "startDate": "2014-06",
+  "endDate": "2018-06",
+  "description": ["Computer Science Major"],
   "skills": [
-    "java",
-    "algorithms",
-    "javascript",
-    "php",
-    ".NET",
-    "SQL"
+    "Python",
+    "Algorithms & Data Structures",
+    "HTML5",
+    "CSS3",
+    "C Programming",
+    "SQL",
+    "C++ Programming"
   ]
 },
 {
   "id": 3,
-  "name": "Project Manager and Front-End Engineer",
-  "category": "Work",
-  "placeName": "Studio Umi",
-  "country": "Japan",
-  "startDate": "2015-02",
-  "endDate": "2016-07",
-  "description": ["Web project planning",
-  "Budget prevision",
-  "Team and deadlines management",
-  "HTML",
-  "CSS",
-  "SCSS",
-  "Sass",
-  "Gulp",
-  "jQuery",
-  "GitLab",
-  "Drupal(7)",
-  "Events & Talks : CMS Summer Festival Osaka, Start Up Week End Nagahama Shiga, Drupal Cafe, Code for Shiga"],
+  "name": "First Runner-up",
+  "category": "Competition",
+  "placeName": "National Institute of Technology, Warangal",
+  "country": "India",
+  "startDate": "2015-10",
+  "endDate": "2015-10",
+  "description": ["Solved the problem to automate the process of transferring the water using low cost junk materials."],
   "skills": [
-    "html",
-    "css",
-    "scss",
-    "javascript",
-    "jQuery",
-    "php",
-    "Drupal"
+    "Team Lead",
+    "Design Architect"
+  ]
+},
+{
+  "id": 4,
+  "name": "Second Runner-up",
+  "category": "Competition",
+  "placeName": "International Institute of Information Technology, Naya-Raipur",
+  "country": "India",
+  "startDate": "2017-02",
+  "endDate": "2017-02",
+  "description": ["Design and deployed a website to facilitate the functionality of an Animal Sanctuary"],
+  "skills": [
+    "Team Lead",
+    "Front End Designer"
+  ]
+},
+{
+  "id": 5,
+  "name": "Smart India Hackathon Grand Finalist",
+  "category": "Competition",
+  "placeName": "Indian Institute of Technology, BHU Varanasi",
+  "country": "India",
+  "startDate": "2018-03",
+  "endDate": "2018-03",
+  "description": ["Proposed and Developed a web based solution to moniter the Artifical Recharge Structures"],
+  "skills": [
+    "Team Lead",
+    "Front End Designer",
+    "Solution Architect"
+  ]
+},
+{
+  "id": 6,
+  "name": "Post Graduate Diploma in Big Data Analytics",
+  "category": "Education",
+  "placeName": "CDAC Knowledge Park",
+  "country": "Bengaluru, India",
+  "startDate": "2018-08",
+  "endDate": "2019-02",
+  "description": ["Fundamental Statistics", "Machine Learning", "Python Programming"],
+  "skills": [
+    "Python Programming",
+    "ML Algorithms",
+    "Pandas",
+    "MySQL",
+    "Data Visualization"
+  ]
+},
+
+{
+  "id": 7,
+  "name": "Machine Learning Engineer - Reasearch and Technology",
+  "category": "Work",
+  "placeName": "Siemens Healthineers Pvt Ltd, Bengaluru",
+  "country": "India",
+  "startDate": "2019-03",
+  "endDate": "Present",
+  "description": ["Responsible for design and development in Data Science team"],
+  "skills": [
+    "Data Simulation and Modelling",
+    "Data Visualization",
+    "Rapid Prototyping of ML Models",
+    "Alpha Testing of ML Models",
+    "Python",
+    "QlikSense"
   ]
 }
 ]
