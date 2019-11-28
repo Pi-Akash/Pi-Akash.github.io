@@ -1,0 +1,16 @@
+[
+{
+  "id": 0,
+  "name": "Secondary School Certificate Examination",
+  "category": "Education",
+  "placeName": "Central Board of Secondary Education",
+  "country": "Bhilai (C.G.),India",
+  "startDate": "2011-03",
+  "endDate": "2012-03",
+  "description":["Basic Sciences and Language subjects"],
+  "skills": [
+    "english",
+    "Skating"
+  ]
+}
+]
