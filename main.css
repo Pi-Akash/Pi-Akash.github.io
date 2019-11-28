@@ -1,0 +1,83 @@
+h1{
+  font-size: 5em;
+  font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin:0;
+}
+
+h2{
+  font-size: 2em;
+  font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin:0;
+}
+
+h3 {
+  font-size: 2em;
+  font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+  font-weight: lighter;
+}
+
+h4{
+  font-size: 2em;
+  font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin:0;
+}
+
+h5{
+  font-size: 1.5em;
+  font-family: 'Josefin Sans', helvetica, arial, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  margin:0;
+}
+
+.blue h1{
+  color: #1565c0;
+}
+.blue h4 {
+  color: #1565c0;
+}
+
+.section{
+  text-align:center;
+  padding: 0px 10vw;
+}
+
+.projects {
+  text-align: left !important;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.6);
+  font-weight: 600;
+}
+
+.dark a {
+  color: rgba(0,0,0,0.3) !important;
+}
+
+a:hover, a:active {
+  color: rgba(0,0,0,0.5) !important;
+}
+
+.socials {
+  text-align: left !important;
+  font-size: 1em;
+  /*padding: 0vh 30vw;*/
+}
+
+.social_header {
+  padding-bottom: 1.5rem;
+  color: #ffffff;
+  text-align: left;
+}
+
+.socials h1:not(.social_header) {
+  padding-bottom: 1.2rem;
+}
