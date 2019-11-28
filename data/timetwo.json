@@ -107,7 +107,6 @@
     "Data Visualization"
   ]
 },
-
 {
   "id": 7,
   "name": "Machine Learning Engineer - Reasearch and Technology",
@@ -125,5 +124,21 @@
     "Python",
     "QlikSense"
   ]
-}
+},
+{
+  "id": 8,
+  "name": "SHPL Hack Grand Finalist",
+  "category": "Competition",
+  "placeName": "Siemens Healthineers Pvt Ltd, Bengaluru",
+  "country": "India",
+  "startDate": "2019-04",
+  "endDate": "2020-04",
+  "description": ["Proposed and Developed a Predictive model to increase the efficiency of disease prediction."],
+  "skills": [
+    "Team Lead",
+    "Model Prototyping",
+    "Validation",
+    "Python Programming"
+  ]
+}  
 ]
