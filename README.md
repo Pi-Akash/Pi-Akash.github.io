@@ -1,2 +1,3 @@
 # Pi-Akash.github.io
-My Personal Website draft code :)
+My Personal Website.
+Made with help of Skeleton - A dead simple, responsive boilerplate. http://www.getskeleton.com
