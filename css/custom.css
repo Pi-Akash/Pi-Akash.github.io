@@ -1,0 +1,1351 @@
+/*
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 08/08/2021
+*/
+
+/*****************************
+******************************
+*****************************/
+/* Larger than stupid mobile */
+@media (min-width: 300px) {
+
+    /* purely for test and debug purpose */
+    .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 15px;
+  }
+
+  .empty-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 6%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 8px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .social-media-bar{
+      margin-left: 0%;
+      margin-right: 36%;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      max-width: 15px;
+      max-height: 15px;
+      margin-left: 0%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 50%;
+      width: 50%;
+      box-shadow: 10px 10px 8px #696969;
+      display: none;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 70%;
+    width: 70%;
+    float: right;
+    margin-top: 18%;
+    display: none;
+  }
+
+  .omdena-company-image{
+    height: 55%;
+    width: 55%;
+    float: right;
+    margin-top: 0%;
+    display: none;
+  }
+
+  .company-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.company-skills{
+    margin-left: 0%;
+    text-align: center;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.code-title{
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+}
+
+.code-description{
+    font-weight: bold;
+    font-size: 6px;
+    text-align: justify;
+}
+
+.achievement-list{
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cdac-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: none;
+  }
+
+  .engineering-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: none;
+  }
+
+  .education-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.education-skills{
+    margin-left: 0%;
+    text-align: center;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.resume-button{
+    text-align: center;
+    font-size: 6px;
+    font-weight: bold;
+    border: 1px dashed #696969;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #696969;
+}
+
+.section-footer{
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+    text-align: left;
+    font-weight: bold;
+}
+
+}  
+
+/*****************************
+******************************
+*****************************/
+/* Larger than mobile */
+@media (min-width: 400px) {
+
+  /* purely for test and debug purpose */
+  .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 15px;
+  }
+
+  .empty-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 12px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 6%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 8px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .social-media-bar{
+    margin-left: 0%;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      max-width: 15px;
+      max-height: 15px;
+      margin-left: 0%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 50%;
+      width: 50%;
+      box-shadow: 10px 10px 8px #696969;
+      display: none;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 70%;
+    width: 70%;
+    float: right;
+    margin-top: 18%;
+    display: none;
+  }
+
+  .omdena-company-image{
+    height: 55%;
+    width: 55%;
+    float: right;
+    margin-top: 0%;
+    display: none;
+  }
+
+  .company-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.company-skills{
+    margin-left: 0%;
+    text-align: center;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.code-title{
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+}
+
+.code-description{
+    font-weight: bold;
+    font-size: 6px;
+    text-align: justify;
+}
+
+.achievement-list{
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cdac-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: none;
+  }
+
+  .engineering-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: none;
+  }
+
+  .education-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.education-skills{
+    margin-left: 0%;
+    text-align: center;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.resume-button{
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    border: 1px dashed #696969;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #696969;
+}
+
+.section-footer{
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+    text-align: left;
+    font-weight: bold;
+}
+
+}
+
+/*****************************
+******************************
+*****************************/
+/* optimize for screens more than 550px width, mobile optimization requires additional steps*/
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+  /* purely for test and debug purpose */
+  .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 15px;
+  }
+
+  .empty-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 10%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 8px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .social-media-bar{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      min-width: 16px;
+      min-height: 16px;
+      margin-left: -2%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 70%;
+      width: 70%;
+      box-shadow: 10px 10px 8px #696969;
+      display: block;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 70%;
+    width: 70%;
+    float: right;
+    margin-top: 18%;
+    display: block;
+  }
+
+  .omdena-company-image{
+    height: 55%;
+    width: 55%;
+    float: right;
+    margin-top: 0%;
+    display: block;
+  }
+
+  .company-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.company-skills{
+    margin-left: 20%;
+    text-align: left;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.code-title{
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+}
+
+.code-description{
+    font-weight: bold;
+    font-size: 6px;
+    text-align: justify;
+}
+
+.achievement-list{
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cdac-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: block;
+  }
+
+  .engineering-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: block;
+  }
+
+  .education-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.education-skills{
+    margin-left: 20%;
+    text-align: left;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.resume-button{
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    border: 1px dashed #696969;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #696969;
+}
+
+.section-footer{
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+    text-align: left;
+    font-weight: bold;
+}
+
+}
+
+/*****************************
+******************************
+*****************************/
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 650px) {
+
+  /* purely for test and debug purpose */
+  .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 20px;
+  }
+
+  .empty-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 20px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 10%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 8px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .social-media-bar{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      min-width: 18px;
+      min-height: 18px;
+      margin-left: -2%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 70%;
+      width: 70%;
+      box-shadow: 10px 10px 8px #696969;
+      display: block;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 70%;
+    width: 70%;
+    float: right;
+    margin-top: 18%;
+    display: block;
+  }
+
+  .omdena-company-image{
+    height: 55%;
+    width: 55%;
+    float: right;
+    margin-top: 0%;
+    display: block;
+  }
+
+  .company-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.company-skills{
+    margin-left: 20%;
+    text-align: left;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.code-title{
+    font-weight: bold;
+    font-size: 8px;
+    text-align: left;
+}
+
+.code-description{
+    font-weight: bold;
+    font-size: 6px;
+    text-align: justify;
+}
+
+.achievement-list{
+    font-size: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.cdac-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: block;
+  }
+
+  .engineering-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: block;
+  }
+
+  .education-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.education-skills{
+    margin-left: 20%;
+    text-align: left;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+.resume-button{
+    text-align: center;
+    font-size: 8px;
+    font-weight: bold;
+    border: 1px dashed #696969;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #696969;
+}
+
+.section-footer{
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 6px;
+    text-align: left;
+    font-weight: bold;
+}
+
+}
+
+/*****************************
+******************************
+*****************************/
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  /* purely for test and debug purpose */
+  .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 20px;
+  }
+
+  .empty-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 40px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 11%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 10px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .social-media-bar{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      min-width: 20px;
+      min-height: 20px;
+      margin-left: -2%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 70%;
+      width: 70%;
+      box-shadow: 10px 10px 8px #696969;
+      display: block;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 70%;
+    width: 70%;
+    float: right;
+    margin-top: 15%;
+    display: block;
+  }
+
+  .omdena-company-image{
+    height: 55%;
+    width: 55%;
+    float: right;
+    margin-top: 0%;
+    display: block;
+  }
+
+  .company-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-right: 10%;
+    text-align: left;
+    }
+
+    .company-skills{
+        margin-left: 20%;
+        margin-right: 10%;
+        text-align: left;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .code-title{
+        font-weight: bold;
+        font-size: 10px;
+        text-align: left;
+    }
+  
+    .code-description{
+        font-weight: bold;
+        font-size: 8px;
+        text-align: justify;
+    }
+
+    .achievement-list{
+        font-size: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .cdac-education-image{
+        height: 40%;
+        width: 40%;
+        float: right;
+        margin-top: 5%;
+        display: block;
+      }
+    
+      .engineering-education-image{
+        height: 40%;
+        width: 40%;
+        float: right;
+        margin-top: 5%;
+        display: block;
+      }
+    
+      .education-label{
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        margin-left: 20%;
+        text-align: left;
+    }
+    
+    .education-skills{
+        margin-left: 20%;
+        text-align: left;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .resume-button{
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+        border: 1px dashed #696969;
+        border-radius: 5px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #696969;
+    }
+    
+    .section-footer{
+        height: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 8px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+}
+
+/*****************************
+******************************
+*****************************/
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+  /* purely for test and debug purpose */
+  .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 20px;
+  }
+
+  .empty-header{
+      height: 50px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 50px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 14%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 12px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .social-media-bar{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      min-width: 25px;
+      min-height: 25px;
+      margin-left: -2%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 80%;
+      width: 80%;
+      box-shadow: 10px 10px 8px #696969;
+      display: block;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 60%;
+    width: 60%;
+    float: right;
+    margin-top: 18%;
+    display: block;
+  }
+
+  .omdena-company-image{
+    height: 45%;
+    width: 45%;
+    float: right;
+    margin-top: 0%;
+    display: block;
+  }
+
+  .company-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20%;
+    text-align: left;
+    }
+
+    .company-skills{
+        margin-left: 20%;
+        text-align: left;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .code-title{
+        font-weight: bold;
+        font-size: 12px;
+        text-align: left;
+    }
+  
+    .code-description{
+        font-weight: bold;
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .achievement-list{
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .cdac-education-image{
+        height: 40%;
+        width: 40%;
+        float: right;
+        margin-top: 5%;
+        display: block;
+      }
+    
+      .engineering-education-image{
+        height: 40%;
+        width: 40%;
+        float: right;
+        margin-top: 5%;
+        display: block;
+      }
+    
+      .education-label{
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 20%;
+        text-align: left;
+    }
+    
+    .education-skills{
+        margin-left: 20%;
+        text-align: left;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .resume-button{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px dashed #696969;
+        border-radius: 5px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: #696969;
+    }
+    
+    .section-footer{
+        height: 30px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 8px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+}
+
+/*****************************
+******************************
+*****************************/
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+  /* purely for test and debug purpose */
+  .test_box{
+      border: 0px solid black;
+  }
+
+  .general-header{
+      height: 20px;
+  }
+
+  .empty-header{
+      height: 50px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* section break header*/
+  .section-break-header{
+      height: 20px;
+      border-bottom: 1px solid #eee;
+      width: 80%;
+  }
+
+  /* Section Header*/
+  .section-header{
+      height: 50px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+      text-align: left;
+      font-weight: bold;
+  }
+
+  /* profile information box */
+  .profile-information{
+      margin-top: 18%;
+  }
+
+  /* welcome message */
+  .welcome-message{
+      font-size: 20px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  /* welcome overview */
+  .welcome-overview{
+      font-size: 15px;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .social-media-bar{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  /* social media icons*/
+  .social-media-icon{
+      min-width: 30px;
+      min-height: 30px;
+      margin-left: -2%;
+  }
+
+  /* profile image settings*/
+  .profile-image{
+      height: 90%;
+      width: 90%;
+      box-shadow: 10px 10px 8px #696969;
+      display: block;
+  }
+
+  .content-break{
+    height: 40px;
+  }
+
+  .siemens-company-image{
+    height: 70%;
+    width: 70%;
+    float: right;
+    margin-top: 18%;
+    display: block;
+  }
+
+  .omdena-company-image{
+    height: 55%;
+    width: 55%;
+    float: right;
+    margin-top: 0%;
+    display: block;
+  }
+
+  .company-label{
+      font-family: 'Raleway', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 20%;
+      text-align: left;
+  }
+
+  .company-skills{
+      margin-left: 20%;
+      text-align: left;
+      font-size: 12px;
+      font-weight: bold;
+  }
+
+  .code-title{
+      font-weight: bold;
+      font-size: 15px;
+      text-align: left;
+  }
+
+  .code-description{
+      font-weight: bold;
+      font-size: 12px;
+      text-align: justify;
+  }
+
+  .achievement-list{
+      font-size: 15px;
+      font-weight: bold;
+      text-align: left;
+  }
+
+  .cdac-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: block;
+  }
+
+  .engineering-education-image{
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    display: block;
+  }
+
+  .education-label{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.education-skills{
+    margin-left: 20%;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.resume-button{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px dashed #696969;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #696969;
+}
+
+.section-footer{
+    height: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+}
